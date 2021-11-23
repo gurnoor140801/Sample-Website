@@ -1,0 +1,153 @@
+body{
+    font-family: 'Dongle', sans-serif;
+}
+
+.display-4{
+    font-size: 18px;
+    
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    color: white!important;
+    font-size: 12px!important;
+    width: 6rem!important
+}
+
+.display-4{
+    font-size: 44px;
+    font-weight:350;
+}
+
+.hero:after {
+    background: inherit;
+    bottom: 0px;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-4deg);
+    transform-origin: 100%;
+    z-index: -1;
+  }
+
+  .bottom-div-boonze-6{
+    background: #662E91 0% 0%;
+    height: 90vh;
+    clip-path: polygon(0 0%, 100% 0, 100% 87%, 0 100%);
+}
+
+.blue{
+    color : rgb(44, 114, 219);
+}
+
+.dark-blue{
+    color: rgb(22,52,93);
+}
+
+.back{
+    background-image: url(./back);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.back2{
+    background-image: url(./back2);
+    background-repeat: no-repeat;
+    background-position: center; 
+    opacity: 0.9;
+} 
+
+.white{
+    color: white!important;
+}
+
+.off-white{
+    color: rgb(149,159,170)!important;
+}
+
+.big{
+    font-size: 0.9rem;
+}
+
+.medium{
+    font-size: 0.8rem;
+}
+
+.topnav .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 900px) {
+    #top{
+        display: block!important;
+        text-align: center;
+        width: 100vw;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #top>img{
+        padding: 0px;
+        height: 45%!important;
+        width: 45%!important;
+        margin-top: 2rem;
+    
+    }
+    #top-text{
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+    }
+    #top-text>h2{
+        font-size: 1rem;
+    }
+    #back-photo, #back2-photo{
+        display: block;
+        text-align: center;
+    }
+    #kudi{
+        display: block!important;
+        text-align: center;
+    }
+    #kudi>div{
+        width: 100vw!important;
+    }
+    #input-form{
+        display: block;
+    }
+    #input-form>input{
+        margin-bottom: 1rem;
+    }
+    #back2-learn{
+        display: none;
+    }
+    #photo{
+        display: none;
+    }
+    #footer-up>img{
+        height: 2%!important;
+        width: 20%!important;
+    }
+    #footer-last{
+        display: none!important;
+    }
+
+    #p-top{
+        font-size: 3vw!important;
+    }
+
+    #h2-top{
+        font-size: 6vw!important;
+    }
+  }
+  
+ 
