@@ -89,10 +89,16 @@ button{
   }
 
   @media screen and (max-width: 900px) {
+      nav{
+          padding-right: 0px;
+      }
+      body{
+          width: fit-content;
+      }
     #top{
         display: block!important;
         text-align: center;
-        width: 100vw;
+      
         margin-left: 0px;
         margin-right: 0px;
     }
